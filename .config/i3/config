@@ -237,11 +237,11 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 #interactive screenshot
-bindsym Print exec shutter -f 
+bindsym Print exec flameshot full -c 
 #crop-area screenshot
-bindsym Control+Shift+Print exec shutter -s 
+bindsym Control+Shift+Print exec flameshot gui
 #Select window screenshot
-bindsym Shift+Print exec shutter -w 
+bindsym Shift+Print exec flameshot screen -r -c
 
 #Shut Down
 bindsym $mod+shift+F11 exec reboot 
