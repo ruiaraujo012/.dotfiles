@@ -1,6 +1,9 @@
 # Update Manjaro
 sudo pacman -Syu
 
+# Install yay
+sudo pacman -S yay
+
 # Install vim
 sudo pacman -S vim gvim
 
@@ -38,10 +41,10 @@ sudo pacman -S flameshot
 sudo pacman -S discord
 
 # Install VSCode
-sudo pacman -S snapd
-sudo systemctl enable --now snapd.socket
-sudo ln -s /var/lib/snapd/snap /snap
-sudo snap install code --classic
+sudo yay -S visual-studio-code-bin
 
 # Install nodejs and yarn
 sudo pacman -S nodejs yarn
+
+# Install Emojis on system
+sudo pacman -S noto-fonts-emoji
