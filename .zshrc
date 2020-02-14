@@ -237,4 +237,3 @@ alias dfl='dotfiles pull'
 alias dfp='dotfiles push'
 alias dfcm='dotfiles commit -v -m'
 alias dfco='dotfiles checkout'
-
