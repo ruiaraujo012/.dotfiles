@@ -23,6 +23,18 @@ gaps outer 0
 smart_gaps on
 smart_borders on
 
+set $focus-color        #3498DB
+set $indicator-color    #D35400
+set $inactive-color     #2C3E50
+set $urgent-color       #E53935
+
+# window colors
+#                       border              background         text                 indicator
+client.focused          $focus-color        $focus-color       $focus-color         $indicator-color
+client.unfocused        $inactive-color     $inactive-color    $inactive-color      $inactive-color
+client.focused_inactive $inactive-color     $inactive-color    $inactive-color      $inactive-color
+client.urgent           $urgent-color       $urgent-color      $urgent-color        $urgent-color
+
 # border_radius 10
 
 # Startup
