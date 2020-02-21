@@ -84,7 +84,7 @@ set $text-color          #f3f4f5
 
 # ROFI (Replace dmenu config)
 
-bindsym $mod+d exec rofi -show drun -show-icons -font "FontAwesome Bold 12" 
+bindsym $mod+d exec rofi -show drun -show-icons -font "Font Awesome 5 Free Regular:style=Regular Bold 12" 
 
 #-eh 2 -lines 5 -width 35 
 
@@ -198,6 +198,7 @@ for_window [class="Spotify"] move to workspace $ws10
 assign [class="discord"] $ws9
 assign [class="Code"] $ws3
 assign [class="GitKraken"] $ws4
+assign [class="com.ontotext.graphdb.free.GraphDBFree"] $ws5
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
