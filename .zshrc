@@ -75,13 +75,8 @@ plugins=(
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
-  dotenv
-  osx
-  docker-compose
-  docker-machine
+  vi-mode
   docker
-  heroku
-  iterm2
   node
   npm
   pip
@@ -90,6 +85,10 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
+# Vi-mode
+bindkey "jk" vi-cmd-mode
+export KEYTIMEOUT=20
 
 # User configuration
 export ANDROID_HOME=~/Public/Android/sdk
