@@ -199,6 +199,7 @@ assign [class="discord"] $ws9
 assign [class="Code"] $ws3
 assign [class="GitKraken"] $ws4
 assign [class="com.ontotext.graphdb.free.GraphDBFree"] $ws5
+assign [class="Chromium"] $ws1
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
