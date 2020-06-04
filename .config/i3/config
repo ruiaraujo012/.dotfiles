@@ -22,7 +22,6 @@ gaps outer 0
 
 smart_gaps on
 smart_borders on
-border_radius 3
 
 set $focus-color        #3498DB
 set $indicator-color    #D35400
