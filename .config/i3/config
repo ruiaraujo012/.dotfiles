@@ -200,7 +200,7 @@ assign [class="Code"] $ws3
 assign [class="GitKraken"] $ws4
 assign [class="com.ontotext.graphdb.free.GraphDBFree"] $ws7
 assign [class="Chromium"] $ws1
-assign [class="Notion"] $ws5
+assign [class="Trello"] $ws5
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
